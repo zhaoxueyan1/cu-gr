@@ -24,7 +24,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(PATH_RSYN ${CMAKE_CURRENT_SOURCE_DIR}/../rsyn)
 set(PATH_ICCAD19 ${CMAKE_CURRENT_SOURCE_DIR})
-
+# SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -DNDEBUG")
+SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g3 -ggdb")
 ###################
 # Warnings/Errors #
 ###################

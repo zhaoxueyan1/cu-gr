@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/home/zhaoxueyan/anaconda3/envs/iEDA/bin/python
 
 import argparse
 import os
